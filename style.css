@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    align-items: center;
+    height: 80px;
+}
+
+.header-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-links ul li a {
+    padding: 0px 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.section-one {
+    height: 400px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #1f2937 ;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 30px; 
+    border: none;
+}
+
+.hero-text {
+    text-align: left;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content div {
+    height: 250px;
+    width: 600px;
+}
+
+.section-two {
+    height: 480px;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.boxip {
+    height: 230px;
+    width: 180px;
+}
+
+.boxip img {
+    height: 180px;
+    width: 180px;
+    border-radius: 10px;
+    border: 5px solid aquamarine;
+}
+
+.information-header {
+    padding-bottom: 60px;
+    padding-top: 40px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900; 
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    height: 400px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    width: 1200px;
+}
+
+.quote-text-ref {
+    font-weight: 600;
+    text-align: right;
+    width: 1000px;
+}
+
+.section-four {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    height: 150px;
+    width: 1200px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.blue-box-text {
+    text-align: left;
+}
+
+.signup2 {
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    height: 80px;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright-text {
+    color: white;
+}
